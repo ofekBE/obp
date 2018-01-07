@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	packedGitWindowSize = 32m
+	packedGitLimit = 128m
+	bigFileThreshold = 10m
+[pack]
+	windowMemory = 10m
+	packSizeLimit = 10m
+	thread = 1
+	deltaCacheSize = 1m
+[http]
+	receivepack = false
